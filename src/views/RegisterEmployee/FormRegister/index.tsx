@@ -119,8 +119,7 @@ export const FormRegister = () => {
             <Text mt='2' fontSize='xs'>Selecione no mínimo 1 e no máximo 3 conhecimentos</Text>
           </FormControl>
         </Box>
-
-        <Button type="submit" colorScheme="orange" mt="5" width="100%">
+        <Button isLoading={formik.isSubmitting} type="submit" colorScheme="orange" mt="5" width="100%">
           Salvar
         </Button>
       </Stack>
