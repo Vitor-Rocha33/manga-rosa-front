@@ -16,7 +16,7 @@ import {
 import { useEffect, useState } from "react"
 import api from "../../services/api"
 import { TableContent } from "./table/TableContent"
-import { IEmployeesResponse } from "./types"
+import { IEmployeesResponse } from "../../types"
 
 export const ListingEmployee = () => {
   const [employees, setEmployees] = useState<IEmployeesResponse[]>([])
